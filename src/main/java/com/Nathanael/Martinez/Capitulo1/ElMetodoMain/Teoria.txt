@@ -1,0 +1,18 @@
+### Ejemplos de metodo main validos como punto de entrada ##
+
+    //Metodo main - Arreglo de Strings
+--public static void main(String[] args) {}
+
+    //Metodo main - Varargs Strings
+--public static void main (String... args){}
+
+
+// ### Ejemplos de metodo main - NO validos como punto de entrada ##
+
+Estos no son puntos validos de entrada es decir el compilador los aceptara pero tendremos un ERROR en Tiempo de Ejecucion
+
+--private static void main(String args[]) {}
+
+--publc static void main() {}
+
+--public void main (String args[]) {}

@@ -1,0 +1,30 @@
+## PACKAGE ##
+
+#Organizan de forma logica las clases
+#Convencion com.example.controller
+#Permiten la recepcion de nombres de clases
+#Estan estrechamente relacionados con el sistema de archivos
+
+
+## TIP0S DE IMPORTS ##
+
+#Import explicito: se usa la palabra reservada IMPORT seguido del nombre de la calse que se esta importando (NombrePackage.NombreDeLaClase)
+#Import utilizando wildcard: Se utiliza un comodin (*) para indicar que haremos uso de alguna de las calses contenidas dentro del paquete (Esta no es la mejor practica)
+#Import implicito: En todas las clases que definamos se importara automaticamente el paquete java.lang*
+
+
+## IMPORTS REDUNDANTES ##
+
+#Estos sucenden cuando especificamos implicitamente un import que ya no es necesario
+#NO ES NECESARIO IMPORTAR IMPLICITAMENTE
+ #Clases que se encuentran en un mismo paquete
+ #Clases que pertenezcan a java.lang.
+ #Clases que ya son visibles dentro de nuestra clase debido a un import con comodin
+
+ ## CONFLICTO DE NOMBRES ##
+
+#Esto ocurre cuando se realizan imports de mas de una clase con el mismo nombre
+
+#Podemos resolver el  conflicto:
+    #relaizando el import explicito de una sola clase (En caso de que la otra clase resundante este siendo importada mediante el wildcard)
+    #Haciendo referencia a la clase directamente por su nombre completo en el codigo donde la ocupemos (Dejando solo el import de la clase)

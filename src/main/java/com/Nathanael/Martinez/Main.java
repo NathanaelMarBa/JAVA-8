@@ -1,4 +1,4 @@
-package Nathanael.Martinez;
+package com.Nathanael.Martinez;
 
 public class Main {
     public static void main(String[] args) {

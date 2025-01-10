@@ -1,0 +1,25 @@
+## CONTRUCTORRES ##
+
+#Nos permiten crear instancias de una clase (Objetos). su proposito principal es inicializar las variables de un objeto
+
+#El constructor debe de conplir con las siguientes reglas
+    #Tener el mismo nombre de la clase
+    #No incluir ningun tipo de retorno
+    Ejemplo dentro de la clase Empleado
+
+#En el caso de que no se especifique un constructor java insetara uno por default en tiempo de ejecucion
+
+
+## BLOQUES INICIALIZADORES DE INSTANCIA ##
+
+#Un bloque de codigo es todo aquello que esta dentro de {}
+#Los bloques inicializadores de instancia son bloques de codigo que NO estan incluidos dentro de un metodo. Pueden estar en cualquier posicion dentro de la clase
+#No tienen tipo de retorno, modificador de acceso, nombre, ni lista de parametros.
+
+
+## ORDEN DE INICIALIZACION ##
+
+#Java inicializa las variables de nuestras clases siguiendo un orden dterminado
+    #Las variables de instancia y los bloques de inicializacion son ejecutados en el orden en el que aparecen en el archivo de Java.
+    #El consructor se ejecuta una vez que las variables de instancia y bloques de inicializacion se han ejecutado.
+    Ejemplo dentro de la clase Alumno
