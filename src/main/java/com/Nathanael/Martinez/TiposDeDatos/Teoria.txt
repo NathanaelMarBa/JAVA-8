@@ -1,0 +1,43 @@
+## PRIMITIVOS ##
+
+#Tipos
+ -boolean
+ -byte
+ -short
+ -int
+ -long
+ -float
+ -double
+ -char
+
+#Valores de punto flotante (decimales): float, double
+#Valores enteros: byte, short, int, long
+#float necesita de la letra "f o F" al final de la literal para ser interpretada como float
+#El rango de valores de byte es de -128 a 127
+#Cada tipo numero usa dos veces mas memoria que el anterior.
+
+## BASES DE LOS NUMEROS ##
+# JAVA PERMITE DEFINIR LOS NUMEROS EN OTRAS BASES ADEMAS DE LA DECIMAL #
+
+#Ocatal: (Digitos del 0 al 7). Usa el 0 como prefijo, por ejemplo 017 (15 en decimal)
+#Hexadecimal (Digitos del 0 al 9 y letras de la A-F) Usa el 0 seguido de una "x" o "X" como prefijo, por ejemplo 0xFF (255 en decimal)
+#Binario (Digitos 0 y 1) Usa el 0 seguidio de la letra "b" 0 "B" como prefijo, por ejemplo 0b10 (2 en decimal)
+
+## LITERALES NUMERICAS Y EL GUION BAJO ##
+
+ #A partir de JAVA 7 es posible utilizar guiones bajos en las literales numericas de manera que se facilite su lectura.
+ #Es posible utilizar el guion bajo en cualquier parte de la literal excepto:
+
+    -Al principio de la literal             double noAlInicio = _1000.00;
+    -Al final de la literal                 double noAlFinal = 1000.00;
+    -Justo antes de un opunto decimal       double noDespuesDelPuntoDecimal = 10._0;
+    -Justo despues de un punto decimal      double noAntesDelPuntoDecimal = 10_.0;
+
+## TIPOS REFERENCIA ##
+ #Un tipo de referencia, refiere a un objeto. Las referencias "apuntan" a un objeto en memoria, almacenando la direccion donde el objeto esta localizado.
+ #A diferencia de los tipos primitivos, que mantienen sus valores en el espacio de memoria donde la variable es asignada, las referencias no almacenan el valor del objeto.
+ #Solo puede inicalizarse si se asigna una variable del mismo tipo o subtipo de objeto, o utilizando la palabra new
+
+#Los tipos de datos de referencia pueden ser asignados con un valor null, los primitivos NO
+#Los tipos referencia pueden ser usados para llamar metodos. Los primitivos NO tienen metodos declarados en ellos
+#Todos los tipos primitivos tienen sus nombres en lowercase. Por convencion las clases en java empiezan con mayuscula (Aunque no es requerido)
