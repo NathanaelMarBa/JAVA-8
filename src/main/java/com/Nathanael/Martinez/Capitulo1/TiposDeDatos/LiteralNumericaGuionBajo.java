@@ -1,4 +1,4 @@
-package com.Nathanael.Martinez.TiposDeDatos;
+package com.Nathanael.Martinez.Capitulo1.TiposDeDatos;
 
 public class LiteralNumericaGuionBajo {
 

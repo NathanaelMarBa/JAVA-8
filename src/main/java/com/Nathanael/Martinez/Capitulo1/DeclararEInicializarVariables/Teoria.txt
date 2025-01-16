@@ -1,0 +1,12 @@
+## Declarando Multiples Variables ##
+
+#Es posible declarar e inicializar multiple variables en una misma sentencia siempre y cuando:
+ -Todas las variables sean del mismo tipo
+ -El tipo de dato sea especificado solo una vez en la sentencia
+
+## IDENTIFICADORES ##
+
+#Las reglas para nombrar a un identificador aplican para nombres de clases, variables, metodos:
+ -El nombre debe de empezar con una letra o los simbolos "$" 0 "_"
+ -Cualquier caracter despues del primero, puede ser un numero.
+ -No esta permitido usar palabras reservadas

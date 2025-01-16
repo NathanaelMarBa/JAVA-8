@@ -1,4 +1,4 @@
-### Ejemplos de metodo main validos como punto de entrada ##
+## Ejemplos de metodo main validos como punto de entrada ##
 
     //Metodo main - Arreglo de Strings
 --public static void main(String[] args) {}
