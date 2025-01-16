@@ -1,0 +1,18 @@
+## TIPOS DE VARIBALES ##
+
+Las varibales se clasifican dependiendo de como y donde son declaradas:
+
+ -Variables locales: Declaradas y utilizadas dentro de un metodo de bloque de codigo
+    -Deben de ser inicializadas antes de ser utilizadas
+    -No tienen un valor default (tienen informacion "basura" antes de ser inicializadas)
+    -El compilador no nos permite utilizar vatiables locales que no hayan sido inicializadas
+
+ -Variables de instancia: Variables declaradas a nivel clase, particulares para cada instancia
+ -Varibales de clase: Variables declaradas a nivel de clase y deinidas como static, son compartidas por todas las instancias de la clase
+    -Las variables de instancia y de clase no requieren una incializacion explicita antes de utilizarse
+    -Al momento de ser declaradas son inicializadas automaticamente a un valor default
+        boolean = false;
+        byte, short, int, long = 0;
+        float, double = 0.0;
+        char = '\u000' (NUL)
+        Todas las referencias a objetos = null

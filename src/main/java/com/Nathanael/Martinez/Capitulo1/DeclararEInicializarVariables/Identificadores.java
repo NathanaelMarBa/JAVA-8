@@ -27,5 +27,3 @@ public class Identificadores {
 
     private int ABC_C98() {return 0;}
 }
-
-class _ {} //Palabra reservada a partir de JAVA 9 por lo que no seria valido en JAVA 8
