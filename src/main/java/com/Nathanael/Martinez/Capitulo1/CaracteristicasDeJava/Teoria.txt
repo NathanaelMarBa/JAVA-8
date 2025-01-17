@@ -1,0 +1,8 @@
+### CARACTERISTICAS DE JAVA ###
+
+#Lenguaje Orientado a Objetos
+#Encapsulamiento: Java soporta modificadores de accesos para la proteccion de datos dentro de las clases
+#Independiente de Plataforma: "Codifica una vez, ejecuta en cualquier lugar"
+#Robusto: Manejo de memoria de manera automatica. Permite desde la creacion de aplicaciones muy simples hasta sistemas complejos
+#Simple: Es mas sencillo que otros lenguajes como C++, eliminando algunos conceptos como los puntadores.
+#Seguro: Al ser ejecutado en JVM se crea un sandbox que hace un poco mas complicado realizar acciones maliciosas en la computadora donde corre
