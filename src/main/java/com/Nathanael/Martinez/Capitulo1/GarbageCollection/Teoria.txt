@@ -1,0 +1,17 @@
+### GARBAGE COLLLECTION ###
+
+#Se refiere al proceso automatico de liberar memoria del heap, eliminando objetos que ya non son accesibles en nuestro programa
+
+#Un objeto ya no es accesible cuando ocurre alguna de estas situaciones:
+  #El objeto ya no tiene referencias que apunten a el
+  #Todas las referencias a ese objeto quedaron fuera del scope
+
+#Metodos importantes relacionados al GB
+
+    #El metodo System.gc();
+        -Sugiere a la JVM que es un buen momento para ejecutar el recolector.
+        -No garantiza que se ejecute la recoleccion de basura.
+
+    #El metodo finalize();
+        -Se ejecuta cuando un objeto esta apunto de ser destruido
+        -Puede ejecutarse como maximo una vez
