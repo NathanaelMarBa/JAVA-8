@@ -1,0 +1,24 @@
+### OPERADORES ###
+
+#Un operador es un simbolo que se puede aplicar a un conjunto de operandos y devulve un resultado.
+#Hay tres tipos de operadores: unarios, binarios, y ternarios
+#El orden de ejecucion de los operadores esta determinado por un orden de precedencia preestablecido, pero puede ser sobrescrito utilizando parentesis.
+
+### OPERADORES ARITMETICOS BINARIOS ###
+#Todos los operadores aritmeticos se pueden aplicar a cualquier tipo primitivo, con excepcion de boolean.
+
+                            %   /   *   -   +
+
+#Todos los operadores + y += puden ser utilizados en la clase String tambien (Para la concatenacion de cadenas)
+
+### OPERADORES UNARIOS ###
+#Los operadores unarios son los que requieren un solo operando para producir un resultado
+
+    ## OPERADORES DE INCREMENTO Y DECREMENTO ##
+
+    #Los operadores de incremento y decremento pueden ser aplicados a operadores numericos y tienen el orden de precedencia mas alto
+
+    #El orden en el que el operador es aplicado es importante:
+        #Pre-incremento y pre-decremento. Cuando se utiliza el operador antes del operando, el operaor es aplicado y el valor resultante es devulto como resultado
+        #Post-incremento y post-decremento. Cuando se utiliza el operador despues del operando, el valor original es devuelto como resultado y posteriormente el operadores
+         aplicado
