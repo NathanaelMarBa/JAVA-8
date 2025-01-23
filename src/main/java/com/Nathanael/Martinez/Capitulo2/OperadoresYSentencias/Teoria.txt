@@ -12,6 +12,7 @@
 #Todos los operadores + y += puden ser utilizados en la clase String tambien (Para la concatenacion de cadenas)
 
 ### OPERADORES UNARIOS ###
+
 #Los operadores unarios son los que requieren un solo operando para producir un resultado
 
     ## OPERADORES DE INCREMENTO Y DECREMENTO ##
@@ -22,3 +23,6 @@
         #Pre-incremento y pre-decremento. Cuando se utiliza el operador antes del operando, el operaor es aplicado y el valor resultante es devulto como resultado
         #Post-incremento y post-decremento. Cuando se utiliza el operador despues del operando, el valor original es devuelto como resultado y posteriormente el operadores
          aplicado
+
+### OPERADORES RELACIONALES ###
+
