@@ -24,5 +24,3 @@
         #Post-incremento y post-decremento. Cuando se utiliza el operador despues del operando, el valor original es devuelto como resultado y posteriormente el operadores
          aplicado
 
-### OPERADORES RELACIONALES ###
-
